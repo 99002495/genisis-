@@ -2,7 +2,8 @@
 #include <CUnit/CUnit.h>
 
 /* Modify these two lines according to the project */
-#include <calculator_operations.h>
+#include <calculator.h>
+#include"math.h"
 #define PROJECT_NAME    "Calculator"
 
 /* Prototypes for all the test functions */
@@ -43,30 +44,30 @@ int main() {
 
 /* Write all the test functions */ 
 void test_add(void) {
-  CU_ASSERT(30 == add(10, 20));
+  CU_ASSERT(30 == calci(10, 20,0));
   
   /* Dummy fail*/
-  CU_ASSERT(1500 == add(750, 7500));
+  CU_ASSERT(1500 == calci(750, 7500,0));
 }
 
 void test_subtract(void) {
-  CU_ASSERT(-3 == subtract(0, 3));
+  CU_ASSERT(-3 == calci(0, 3,1));
   
   /* Dummy fail*/
-  CU_ASSERT(1 == subtract(1000, 900));
+  CU_ASSERT(1 == calci(1000, 900,1));
 }
 
 void test_multiply(void) {
-  CU_ASSERT(0 == multiply(1, 0));
+  CU_ASSERT(0 == calci(1, 0,2));
   
   /* Dummy fail*/
-  CU_ASSERT(2 == multiply(2, 5));
+  CU_ASSERT(10 == calci(2, 5,2));
 }
 
 void test_divide(void) {
-  CU_ASSERT(0 == divide(1, 0));
+  CU_ASSERT(0 == calci(1, 0,3));
   
   /* Dummy fail*/
-  CU_ASSERT(3 == divide(2, 2));
+  CU_ASSERT(3 == calci(2, 2,3));
 }
 
