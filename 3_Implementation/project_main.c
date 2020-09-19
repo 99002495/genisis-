@@ -1,6 +1,6 @@
 
 
-#include "calculator.h"
+#include "calculator_operations.h"
 #include "math.h"
 #include"stdio.h"
 
