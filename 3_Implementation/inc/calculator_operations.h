@@ -5,6 +5,7 @@
 #ifndef __CALCULATOR_OPERATIONS_H__
 #define __CALCULATOR_OPERATIONS_H__
 #include"math.h"
+#include"stdio.h"
 /**
 * Calculates the factorial of integer number
 * @param[in] number for which factorial has to be found
