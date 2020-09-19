@@ -2,7 +2,7 @@
 #include <CUnit/CUnit.h>
 
 /* Modify these two lines according to the project */
-#include <calculator.h>
+#include <calculator_operations.h>
 #include"math.h"
 #define PROJECT_NAME    "Calculator"
 
