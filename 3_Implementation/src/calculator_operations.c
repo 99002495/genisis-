@@ -1,5 +1,6 @@
 #include"calculator_operations.h"
 #include"math.h"
+#include"stdio.h"
 int add(int num1, int num2)
 {
   int intermidiate;
