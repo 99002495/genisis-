@@ -2,8 +2,8 @@
 * @file factorial.h
 *
 */
-#ifndef __CALCULATOR_H__
-#define __CALCULATOR_H__
+#ifndef __CALCULATOR_OPERATIONS_H__
+#define __CALCULATOR_OPERATIONS_H__
 #include"math.h"
 /**
 * Calculates the factorial of integer number
